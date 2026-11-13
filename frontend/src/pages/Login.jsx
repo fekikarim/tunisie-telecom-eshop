@@ -1,16 +1,11 @@
 import { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Eye, EyeOff, LogIn, ShieldCheck, UserRound } from 'lucide-react';
+import { Eye, EyeOff, LogIn } from 'lucide-react';
 import Field from '../components/Field.jsx';
 import Logo from '../components/Logo.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useToast } from '../context/ToastContext.jsx';
 import { getErrorMessage } from '../utils/api.js';
-
-const DEMO_ACCOUNTS = {
-  customer: { email: 'user@test.tn', password: 'User123!', label: 'Customer demo' },
-  admin: { email: 'admin@telecom.tn', password: 'Admin123!', label: 'Admin demo' },
-};
 
 export default function Login() {
   const { login } = useAuth();
@@ -45,12 +40,6 @@ export default function Login() {
     }
   };
 
-  const fill = (account) => {
-    setForm({ email: account.email, password: account.password });
-    setErrors({});
-    setFormError('');
-  };
-
   return (
     <div className="fade-in flex min-h-[calc(100dvh-16rem)] items-center justify-center px-4 py-12">
       <div className="w-full max-w-md">
@@ -83,17 +72,6 @@ export default function Login() {
             </button>
           </form>
 
-          <div className="mt-6 border-t border-slate-100 pt-5">
-            <p className="mb-3 text-center text-xs font-semibold uppercase tracking-wider text-muted">Demo accounts</p>
-            <div className="grid grid-cols-2 gap-3">
-              <button type="button" onClick={() => fill(DEMO_ACCOUNTS.customer)} className="btn-secondary btn-sm py-2.5">
-                <UserRound className="size-4" /> Customer
-              </button>
-              <button type="button" onClick={() => fill(DEMO_ACCOUNTS.admin)} className="btn-secondary btn-sm py-2.5">
-                <ShieldCheck className="size-4" /> Admin
-              </button>
-            </div>
-          </div>
         </div>
 
         <p className="mt-6 text-center text-sm text-muted">

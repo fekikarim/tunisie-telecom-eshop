@@ -244,7 +244,7 @@ To reset the demo data, stop the API, delete `backend/data/telecom.db` (and its 
 | Administrator | `admin@telecom.tn` | `Admin123!` |
 | Customer | `user@test.tn` | `User123!` |
 
-The login page has one-click buttons that fill these in. Two more demo customers (`sarra@test.tn`, `amine@test.tn`, password `User123!`) and sample orders are included for dashboard statistics.
+Two more demo customers (`sarra@test.tn`, `amine@test.tn`, password `User123!`) and sample orders are included for dashboard statistics.
 
 ## 💳 Payments
 
