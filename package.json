@@ -1,0 +1,32 @@
+{
+  "name": "tunisie-telecom-eshop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack e-commerce platform for a telecom operator: React, Express, SQLite, JWT and an admin dashboard.",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend && npm install",
+    "dev": "concurrently -k -n api,web -c blue,magenta \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend",
+    "test": "npm test --prefix backend"
+  },
+  "dependencies": {
+    "concurrently": "^10.0.7"
+  },
+  "license": "MIT",
+  "author": "Karim Feki & Nesrine Derouiche",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fekikarim/tunisie-telecom-eshop.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "react",
+    "express",
+    "sqlite",
+    "jwt",
+    "tailwindcss",
+    "vite",
+    "telecom",
+    "fullstack"
+  ]
+}

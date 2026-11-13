@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480">
+<rect width="600" height="480" fill="#E8F3FC"/>
+<circle cx="300" cy="190" r="150" fill="#FFFFFF" opacity=".75"/>
+<g transform="translate(300 190) scale(1.1)"><rect x="-40" y="-70" width="80" height="140" rx="14" fill="#1B2A3A"/><rect x="-22" y="-52" width="44" height="18" rx="4" fill="#34C759"/><rect x="-22" y="-26" width="44" height="18" rx="4" fill="#4DA3E0" opacity=".6"/><rect x="-10" y="48" width="20" height="16" rx="3" fill="#F5B400"/></g>
+<rect x="0" y="0" width="600" height="10" fill="#0A5AA0"/>
+<text x="300" y="290" opacity="0"/>
+<text x="300" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">USB-C Fast Charger 25</text><text x="300" y="422" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">W</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480">
+<rect width="600" height="480" fill="#E8F3FC"/>
+<circle cx="300" cy="190" r="150" fill="#FFFFFF" opacity=".75"/>
+<g transform="translate(300 190) scale(1.1)"><rect x="-80" y="-18" width="160" height="50" rx="12" fill="#1B2A3A"/><line x1="-55" y1="-18" x2="-70" y2="-86" stroke="#1B2A3A" stroke-width="7" stroke-linecap="round"/><line x1="55" y1="-18" x2="70" y2="-86" stroke="#1B2A3A" stroke-width="7" stroke-linecap="round"/><circle cx="-40" cy="7" r="5" fill="#34C759"/><circle cx="-20" cy="7" r="5" fill="#F5B400"/><circle cx="0" cy="7" r="5" fill="#34C759"/><path d="M-100 -40 Q0 -120 100 -40" stroke="#4DA3E0" stroke-width="6" fill="none" stroke-linecap="round" opacity=".7"/></g>
+<rect x="0" y="0" width="600" height="10" fill="#0A5AA0"/>
+<text x="300" y="290" opacity="0"/>
+<text x="300" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">Wi-Fi 6 Dual-Band</text><text x="300" y="422" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">Router AX3000</text>
+</svg>

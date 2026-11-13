@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480">
+<rect width="600" height="480" fill="#E8F3FC"/>
+<circle cx="300" cy="190" r="150" fill="#FFFFFF" opacity=".75"/>
+<g transform="translate(300 190) scale(1.1)"><rect x="-80" y="-40" width="160" height="80" rx="14" fill="#1B2A3A"/><circle cx="-50" cy="0" r="7" fill="#34C759"/><circle cx="-26" cy="0" r="7" fill="#F5B400"/><rect x="0" y="-12" width="50" height="24" rx="4" fill="#4DA3E0"/><path d="M-120 60 L-40 60" stroke="#F5B400" stroke-width="8" stroke-linecap="round"/></g>
+<rect x="0" y="0" width="600" height="10" fill="#0A5AA0"/>
+<text x="300" y="300" opacity="0"/>
+<text x="300" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">FTTH Fiber ONT Modem</text>
+</svg>

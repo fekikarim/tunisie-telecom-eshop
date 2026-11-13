@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480">
+<rect width="600" height="480" fill="#E8F3FC"/>
+<circle cx="300" cy="190" r="150" fill="#FFFFFF" opacity=".75"/>
+<g transform="translate(300 190) scale(1.1)"><rect x="-46" y="-86" width="92" height="172" rx="16" fill="#1B2A3A"/><rect x="-38" y="-72" width="76" height="144" rx="6" fill="#4DA3E0"/><circle cx="0" cy="-56" r="5" fill="#1B2A3A" opacity=".5"/></g>
+<rect x="0" y="0" width="600" height="10" fill="#0A5AA0"/>
+<text x="300" y="300" opacity="0"/>
+<text x="300" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">Apple iPhone 13 128 GB</text>
+</svg>

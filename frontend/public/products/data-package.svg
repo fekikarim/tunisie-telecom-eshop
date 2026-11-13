@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480">
+<rect width="600" height="480" fill="#E8F3FC"/>
+<circle cx="300" cy="190" r="150" fill="#FFFFFF" opacity=".75"/>
+<g transform="translate(300 190) scale(1.1)"><circle cx="0" cy="0" r="62" fill="#fff" stroke="#0A5AA0" stroke-width="10"/><path d="M-62 0 H62 M0 -62 Q40 0 0 62 Q-40 0 0 -62" fill="none" stroke="#0A5AA0" stroke-width="7"/><circle cx="62" cy="-62" r="18" fill="#F5B400"/></g>
+<rect x="0" y="0" width="600" height="10" fill="#0A5AA0"/>
+<text x="300" y="290" opacity="0"/>
+<text x="300" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">4G Internet Box 50 GB</text><text x="300" y="422" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">- Monthly</text>
+</svg>

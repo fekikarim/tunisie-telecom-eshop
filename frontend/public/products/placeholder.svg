@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480">
+<rect width="600" height="480" fill="#E8F3FC"/>
+<image href="/logo.png" x="200" y="120" width="200" height="130" preserveAspectRatio="xMidYMid meet"/>
+<text x="300" y="320" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">Image unavailable</text>
+</svg>

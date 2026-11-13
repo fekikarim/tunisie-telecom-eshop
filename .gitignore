@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment and local data
+.env
+.env.*
+!.env.example
+backend/data/
+backend/uploads/
+
+# Logs and OS / editor files
+*.log
+.DS_Store
+.playwright-mcp/
+.vscode/
+.idea/

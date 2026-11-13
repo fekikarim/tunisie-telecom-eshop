@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Tunisie Telecom blue scale (primary brand colour) */
+  --color-tt-50: #f0f7fd;
+  --color-tt-100: #dcedfb;
+  --color-tt-200: #b9daf5;
+  --color-tt-300: #8cc3ec;
+  --color-tt-400: #4fa6df;
+  --color-tt-500: #1f86d0;
+  --color-tt-600: #0a6bb8;
+  --color-tt-700: #0a5aa0;
+  --color-tt-800: #0b4a82;
+  --color-tt-900: #0b3b68;
+
+  /* Supporting colours: navy text, a warm yellow accent for promotions */
+  --color-ink: #0f2740;
+  --color-muted: #5b6b7d;
+  --color-sun: #f5b400;
+  --color-sun-50: #fff8e1;
+
+  --shadow-card: 0 1px 2px rgba(10, 46, 84, 0.06), 0 8px 24px -12px rgba(10, 46, 84, 0.2);
+  --shadow-lift: 0 2px 4px rgba(10, 46, 84, 0.06), 0 16px 32px -16px rgba(10, 46, 84, 0.28);
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    @apply bg-tt-50 text-ink antialiased;
+    background-color: #f3f8fd;
+    min-height: 100dvh;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-tt-500;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-200 ease-out select-none disabled:cursor-not-allowed disabled:opacity-50 active:scale-[0.98];
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-200 ease-out select-none disabled:cursor-not-allowed disabled:opacity-50 active:scale-[0.98] bg-tt-700 text-white shadow-sm hover:bg-tt-800 hover:shadow-md;
+  }
+  .btn-accent {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-200 ease-out select-none disabled:cursor-not-allowed disabled:opacity-50 active:scale-[0.98] bg-sun text-ink shadow-sm hover:brightness-95;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-200 ease-out select-none disabled:cursor-not-allowed disabled:opacity-50 active:scale-[0.98] bg-white text-tt-700 ring-1 ring-inset ring-tt-200 hover:bg-tt-50 hover:ring-tt-300;
+  }
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-200 ease-out select-none disabled:cursor-not-allowed disabled:opacity-50 active:scale-[0.98] bg-red-600 text-white hover:bg-red-700;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-200 ease-out select-none disabled:cursor-not-allowed disabled:opacity-50 active:scale-[0.98] text-tt-700 hover:bg-tt-100;
+  }
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+  .card {
+    @apply rounded-2xl bg-white shadow-card ring-1 ring-tt-100/70;
+  }
+  .input {
+    @apply w-full rounded-xl border border-slate-300 bg-white px-3.5 py-2.5 text-sm text-ink placeholder:text-slate-400 transition duration-150 focus:border-tt-500 focus:ring-4 focus:ring-tt-100 focus:outline-none aria-invalid:border-red-500 aria-invalid:ring-red-100;
+  }
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-ink;
+  }
+  .error-text {
+    @apply mt-1.5 text-xs font-medium text-red-600;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold whitespace-nowrap;
+  }
+  .section-title {
+    @apply text-2xl font-bold tracking-tight text-ink sm:text-3xl;
+  }
+  .fade-in {
+    animation: fade-in 0.35s ease-out both;
+  }
+  .skeleton {
+    @apply animate-pulse rounded-lg bg-tt-100;
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480">
+<rect width="600" height="480" fill="#E8F3FC"/>
+<circle cx="300" cy="190" r="150" fill="#FFFFFF" opacity=".75"/>
+<g transform="translate(300 190) scale(1.1)"><rect x="-52" y="-60" width="104" height="120" rx="52" fill="#1B2A3A"/><circle cx="0" cy="-10" r="30" fill="#4DA3E0"/><circle cx="0" cy="-10" r="12" fill="#0A5AA0"/><circle cx="28" cy="-52" r="6" fill="#34C759"/></g>
+<rect x="0" y="0" width="600" height="10" fill="#0A5AA0"/>
+<text x="300" y="290" opacity="0"/>
+<text x="300" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">Smart Security Camera</text><text x="300" y="422" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0A5AA0">2K</text>
+</svg>
