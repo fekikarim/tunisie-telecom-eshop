@@ -314,12 +314,12 @@ This is a learning project. Before any real deployment, add rate limiting, HTTPS
 <td align="center" width="50%">
 <a href="https://github.com/fekikarim"><b>Karim Feki</b></a><br/>
 <sub>Co-developer · Internship, July 2023</sub><br/>
-<sub>Full-stack development, REST API design and database modelling</sub>
+<sub>Full-stack development, shared equally with Nesrine</sub>
 </td>
 <td align="center" width="50%">
 <a href="https://github.com/nesrine-derouiche"><b>Nesrine Derouiche</b></a><br/>
 <sub>Co-developer · Internship, July 2023</sub><br/>
-<sub>Frontend development, interface design and user experience</sub>
+<sub>Full-stack development, shared equally with Karim</sub>
 </td>
 </tr>
 </table>

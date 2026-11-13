@@ -8,14 +8,14 @@ const TEAM = [
     initials: 'KF',
     github: 'https://github.com/fekikarim',
     handle: 'fekikarim',
-    focus: 'Full-stack development, REST API design and database modelling',
+    focus: 'Full-stack development shared equally: React interface, REST API, database and testing',
   },
   {
     name: 'Nesrine Derouiche',
     initials: 'ND',
     github: 'https://github.com/nesrine-derouiche',
     handle: 'nesrine-derouiche',
-    focus: 'Frontend development, interface design and user experience',
+    focus: 'Full-stack development shared equally: React interface, REST API, database and testing',
   },
 ];
 
